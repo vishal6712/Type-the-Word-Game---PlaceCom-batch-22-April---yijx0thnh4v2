@@ -25,7 +25,7 @@ function App() {
   
   const handleFormSubmit=(event)=>{
   event.preventDefault();
-  if(userInput.toLowerCase()===word.toLowerCae()){setResult('You won!');}
+  if(userInput.toLowerCase()===word.toLowerCase()){setResult('You won!');}
   else{setResult('You lost!');}};
   
   const handleRestartClick= () =>{
